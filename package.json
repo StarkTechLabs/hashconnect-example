@@ -1,0 +1,37 @@
+{
+  "name": "hashconnect-example",
+  "version": "0.1.0",
+  "description": "React example of connecting to a Hashpack wallet via hashconnect",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StarkTechLabs/hashconnect-example"
+  },
+  "author": "mstark5652",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "start": "rewp build --watch",
+    "build": "rewp build",
+    "release": "export NODE_ENV=production && npm run build",
+    "lint": "standard ./src/**/*.js",
+    "lint:fix": "standard ./src/**/*.js --fix"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1049.0",
+    "mime": "^2.6.0",
+    "rewp": "^0.6.1",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@hashgraph/sdk": "^2.15.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@mui/styles": "^5.2.3",
+    "hashconnect": "^0.1.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1"
+  }
+}
