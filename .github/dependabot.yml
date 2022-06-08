@@ -1,15 +1,10 @@
-version: 1
+version: 2
 
-update_configs:
-  - package_manager: "javascript"
+updates:
+  - package-ecosystem: "npm"
     directory: "/"
-    update_schedule: "daily"
-    target_branch: "main"
-    default_reviewers:
-    - mstark5652
-    default_labels:
-    - "security"
-    - "dependabot"
-    allowed_updates:
-      - match:
-          update_type: "security"
+    schedule:
+      interval: "weekly"
+    target-branch: "main"
+    reviewers:
+      - mstark5652
