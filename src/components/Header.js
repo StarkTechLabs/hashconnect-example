@@ -62,7 +62,7 @@ const Header = ({ network }) => {
       return
     }
 
-    bus.emit('show-error-notification', { message: <>Could not find Hashpack wallet extension. Please <Link href='https://hashpack.app' target='_blank' rel='noreferrer'>go install the extension</Link>.</> })
+    bus.emit('show-error-notification', { message: <>Could not find HashPack wallet extension. Please <Link href='https://hashpack.app' target='_blank' rel='noreferrer'>go install the extension</Link>.</> })
   }
 
   const handleUnpair = () => {

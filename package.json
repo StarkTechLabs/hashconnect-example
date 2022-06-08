@@ -1,7 +1,7 @@
 {
   "name": "hashconnect-example",
   "version": "0.1.0",
-  "description": "React example of connecting to a Hashpack wallet via hashconnect",
+  "description": "React example of connecting to a HashPack wallet via hashconnect",
   "main": "src/index.js",
   "repository": {
     "type": "git",
