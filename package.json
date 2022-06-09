@@ -21,7 +21,7 @@
     "aws-sdk": "^2.1049.0",
     "mime": "^2.6.0",
     "rewp": "^0.6.1",
-    "standard": "^16.0.4"
+    "standard": "^17.0.0"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
