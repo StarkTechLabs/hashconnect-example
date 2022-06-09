@@ -12,6 +12,7 @@
   "scripts": {
     "start": "rewp build --watch",
     "build": "rewp build",
+    "serve": "http-server -S -C cert.pem -o",
     "release": "export NODE_ENV=production && npm run build",
     "lint": "standard ./src/**/*.js",
     "lint:fix": "standard ./src/**/*.js --fix"

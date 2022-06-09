@@ -3,6 +3,9 @@ npm-debug.log
 *.log
 output/
 build/
+keys/
+key.pem
+cert.pem
 
 .vscode/
 .nyc_output/
