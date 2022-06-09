@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "aws-sdk": "^2.1049.0",
-    "mime": "^2.6.0",
+    "mime": "^3.0.0",
     "rewp": "^0.6.1",
     "standard": "^16.0.4"
   },
