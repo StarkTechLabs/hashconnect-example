@@ -29,7 +29,7 @@
     "@hashgraph/sdk": "^2.15.0",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.6",
-    "@mui/styles": "^5.2.3",
+    "@mui/styles": "^5.10.8",
     "hashconnect": "^0.1.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
